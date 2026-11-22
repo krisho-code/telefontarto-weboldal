@@ -58,6 +58,19 @@ body {
   animation: float 6s ease-in-out infinite;
 }
 
+@keyframes buzz {
+  0% { transform: translate(0, 0) rotate(-3deg); }
+  20% { transform: translate(-3px, 2px) rotate(-4deg); }
+  40% { transform: translate(3px, -2px) rotate(-2deg); }
+  60% { transform: translate(-3px, -2px) rotate(-4deg); }
+  80% { transform: translate(3px, 2px) rotate(-2deg); }
+  100% { transform: translate(0, 0) rotate(-3deg); }
+}
+/* hover target is the static wrapper, so the shaking phone can't flicker out from under the cursor */
+.phone-hit:hover .phone {
+  animation: buzz 0.18s linear infinite;
+}
+
 @keyframes pulse-ring {
   0% { transform: scale(0.8); opacity: 0.7; }
   100% { transform: scale(1.6); opacity: 0; }
@@ -74,6 +87,6 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .animate-float, .animate-ring, .animate-marquee { animation: none; }
+  .animate-float, .animate-ring, .animate-marquee, .phone-hit:hover .phone { animation: none; }
   html { scroll-behavior: auto; }
 }
