@@ -69,7 +69,7 @@ export default function Home() {
           </div>
           <a
             href="#waitlist"
-            className="rounded-full bg-accent px-5 py-2 text-sm font-semibold text-black transition hover:brightness-110"
+            className="rounded-full bg-accent px-5 py-2 text-sm font-semibold text-white transition hover:brightness-110"
           >
             Get early access
           </a>

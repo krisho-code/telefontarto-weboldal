@@ -4,7 +4,7 @@
   --background: #07080a;
   --foreground: #f2f3f5;
   --muted: #8b9099;
-  --accent: #c6ff3d;
+  --accent: #3d8bff;
   --card: #0f1114;
   --line: #1e2127;
 }
@@ -32,7 +32,7 @@ body {
 
 ::selection {
   background: var(--accent);
-  color: #000;
+  color: #fff;
 }
 
 .grid-bg {

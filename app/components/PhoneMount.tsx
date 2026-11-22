@@ -13,7 +13,7 @@ export default function PhoneMount() {
 
       {/* phone */}
       <div className="animate-float relative h-[400px] w-[196px] rounded-[38px] border border-white/15 bg-gradient-to-b from-[#1a1d22] to-[#0a0b0d] p-2 shadow-2xl">
-        <div className="relative h-full w-full overflow-hidden rounded-[30px] bg-gradient-to-br from-[#0d1f0a] via-[#0a0b0d] to-[#1a2a05]">
+        <div className="relative h-full w-full overflow-hidden rounded-[30px] bg-gradient-to-br from-[#0a1530] via-[#0a0b0d] to-[#051a3a]">
           <div className="mx-auto mt-3 h-5 w-20 rounded-full bg-black" />
           <div className="mt-10 text-center font-mono text-[11px] tracking-widest text-accent">
             SNAPPED ✓

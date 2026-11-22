@@ -36,7 +36,7 @@ export default function Waitlist() {
       />
       <button
         type="submit"
-        className="rounded-full bg-accent px-6 py-3.5 text-sm font-semibold text-black transition hover:brightness-110 active:scale-95"
+        className="rounded-full bg-accent px-6 py-3.5 text-sm font-semibold text-white transition hover:brightness-110 active:scale-95"
       >
         Join the waitlist
       </button>
